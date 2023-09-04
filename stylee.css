@@ -1,8 +1,16 @@
 /* CSS Anda */
-.konten {
-    text-align: center; /* Untuk mengatur teks ke tengah */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Untuk menggeser elemen ke tengah */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    color: blue; /* Gaya teks warna biru */
 }
